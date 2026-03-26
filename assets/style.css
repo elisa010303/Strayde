@@ -302,3 +302,8 @@ html {
       height: 1px;
       background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .1), transparent);
     }
+/* Global image drag/selection fix */
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}

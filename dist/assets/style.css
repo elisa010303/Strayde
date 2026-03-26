@@ -7,6 +7,11 @@ html {
       color: #231a3d;
     }
 
+    img {
+      -webkit-user-drag: none;
+      user-select: none;
+    }
+
     .btn-accent {
       background: #c5d97d;
       color: #231a3d;
