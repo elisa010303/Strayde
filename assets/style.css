@@ -68,6 +68,19 @@ html {
       box-shadow: 0 8px 28px rgba(30, 146, 155, .3);
     }
 
+    /* Header & Navigation */
+    .header-glass {
+      backdrop-filter: blur(14px);
+      background: rgba(35, 26, 61, 0.97);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    }
+
+    .dropdown-card {
+      background: #2d2548;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+    }
+
     .nav-link {
       color: rgba(255, 255, 255, .72);
       font-size: .875rem;
@@ -76,6 +89,80 @@ html {
 
     .nav-link:hover {
       color: #c5d97d;
+    }
+
+    /* Sections */
+    .s-dark {
+      background: #231a3d;
+    }
+
+    .s-darker {
+      background: #1a1535;
+    }
+
+    .hero-section {
+      min-height: 95vh;
+      display: flex;
+      align-items: center;
+      padding-top: 5rem;
+      position: relative;
+    }
+
+    .hero-glow {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(ellipse 60% 80% at 70% 30%, rgba(30, 146, 155, .1), transparent), radial-gradient(ellipse 40% 50% at 10% 80%, rgba(197, 217, 125, .06), transparent);
+      pointer-events: none;
+    }
+
+    .hero-title {
+      font-size: clamp(2.8rem, 5.5vw, 4.8rem);
+      letter-spacing: -0.02em;
+    }
+
+    .hero-subtitle {
+      color: rgba(255, 255, 255, .6);
+      font-size: 1.05rem;
+    }
+
+    /* Window Mockup Component */
+    .window-mockup {
+      border: 1.5px solid rgba(255, 255, 255, .1);
+      box-shadow: 0 40px 100px rgba(0, 0, 0, .45), 0 12px 28px rgba(0, 0, 0, .2);
+      border-radius: 1rem;
+      overflow: hidden;
+    }
+
+    .window-header {
+      background: #2d2548;
+      border-bottom: 1px solid rgba(255, 255, 255, .08);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.625rem 1rem;
+    }
+
+    .window-dot {
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+    }
+
+    .window-address {
+      flex: 1;
+      margin: 0 0.75rem;
+      background: rgba(255, 255, 255, .07);
+      border-radius: 0.4rem;
+      padding: 0.2rem 0.75rem;
+      font-size: 0.7rem;
+      color: rgba(255, 255, 255, 0.4);
+      max-width: 220px;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
     }
 
     /* highlight */
@@ -302,8 +389,223 @@ html {
       height: 1px;
       background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .1), transparent);
     }
-/* Global image drag/selection fix */
-img {
-  -webkit-user-drag: none;
-  user-select: none;
-}
+
+    /* Utilities */
+    .text-white-22 { color: rgba(255, 255, 255, 0.22); }
+    .text-white-30 { color: rgba(255, 255, 255, 0.3); }
+    .text-white-55 { color: rgba(255, 255, 255, 0.55); }
+    .text-white-65 { color: rgba(255, 255, 255, 0.65); }
+    .text-white-75 { color: rgba(255, 255, 255, 0.75); }
+    .text-muted { color: #4b5563; }
+    .text-primary { color: #231a3d; }
+    .text-secondary { color: #1e929b; }
+    .text-accent { color: #c5d97d; }
+    
+    .border-white-8 { border-color: rgba(255, 255, 255, 0.08); }
+    .border-white-20 { border-color: rgba(255, 255, 255, 0.2); }
+    .border-none { border: none !important; }
+
+    .faq-icon-style {
+      width: 1.2rem;
+      height: 1.2rem;
+      color: #1e929b;
+      flex-shrink: 0;
+    }
+
+    .contact-glow {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 70% at 70% 40%, rgba(30, 146, 155, .1), transparent);
+      pointer-events: none;
+    }
+
+    .select-placeholder {
+      color: #9aa3ae;
+    }
+
+    /* Hero Badges */
+    .hero-badge {
+      position: absolute;
+      background: #fff;
+      border-radius: 1rem;
+      padding: 0.75rem 1rem;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+      border: 1.5px solid #e8edf2;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      z-index: 20;
+    }
+
+    .badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #28c840;
+      flex-shrink: 0;
+    }
+
+    .animate-blink {
+      animation: blink 2s ease-in-out infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    /* Race Carousel */
+    .race-carousel {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 1rem;
+      overflow-x: auto;
+      padding-bottom: 1rem;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      cursor: grab;
+    }
+
+    .race-carousel:active {
+      cursor: grabbing;
+    }
+
+    .race-carousel::-webkit-scrollbar {
+      display: none;
+    }
+
+    .race-card {
+      scroll-snap-align: center;
+      flex-shrink: 0;
+      border-radius: 0.75rem;
+      padding: 1rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      transition: all 0.3s;
+    }
+
+    .race-card:hover {
+      background: rgba(255, 255, 255, 0.15);
+      border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .race-text {
+      color: #fff;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      white-space: nowrap;
+      pointer-events: none;
+    }
+
+    /* Section Typography & Layout */
+    .fs-section-title {
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      letter-spacing: -0.02em;
+    }
+    .fs-section-title-sm {
+      font-size: clamp(2rem, 4vw, 3rem);
+      letter-spacing: -0.02em;
+    }
+    .fs-section-title-cta {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      letter-spacing: -0.02em;
+    }
+
+    .section-subtitle-center {
+      color: #4b5563;
+      max-width: 38rem;
+      margin: 0 auto;
+      font-size: 1.02rem;
+    }
+
+    .section-subtitle-white {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 1rem;
+      max-width: 36rem;
+      margin: 0 auto;
+    }
+
+    /* Icon Boxes (Sizes & Variants) */
+    .icon-box-accent-soft {
+      background: rgba(197, 217, 125, 0.12);
+      border: 1px solid rgba(197, 217, 125, 0.2);
+    }
+    .icon-box-secondary-soft {
+      background: rgba(30, 146, 155, 0.12);
+      border: 1px solid rgba(30, 146, 155, 0.2);
+    }
+    .icon-box-teal-soft {
+       background-color: rgba(30, 146, 155, 0.12);
+    }
+
+    .icon-size-xs { width: 0.9rem; height: 0.9rem; }
+    .icon-size-sm { width: 1.1rem; height: 1.1rem; }
+    .icon-size-md { width: 1.5rem; height: 1.5rem; }
+
+    /* Cards typography */
+    .card-title-fs {
+      font-size: 1.25rem;
+      letter-spacing: -0.01em;
+    }
+
+    /* Status opacities */
+    .text-white-40 { color: rgba(255, 255, 255, 0.4); }
+    .text-white-50 { color: rgba(255, 255, 255, 0.5); }
+    .text-white-38 { color: rgba(255, 255, 255, 0.38); }
+
+    /* Contact Section Overlay */
+    .contact-overlay {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 70% at 70% 40%, rgba(30, 146, 155, 0.1), transparent);
+      pointer-events: none;
+    }
+
+    /* Approach visual side */
+    .approach-card-visual {
+      background: linear-gradient(135deg, #1a1535, #231a3d);
+      aspect-ratio: 4/3;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 24px 64px rgba(35, 26, 61, 0.18);
+    }
+
+    .approach-stat-card {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 0.75rem;
+      padding: 1rem;
+    }
+    .approach-stat-label {
+      color: rgba(255, 255, 255, 0.4);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 1.25rem;
+    }
+    .approach-stat-value {
+      font-size: 1.8rem;
+    }
+    .approach-stat-desc {
+       color: rgba(255, 255, 255, 0.45);
+       font-size: 0.78rem;
+    }
+
+    .energy-footer {
+      border-top: 1px solid rgba(255, 255, 255, 0.07);
+    }
+    .energy-text {
+       color: rgba(255, 255, 255, 0.4);
+       font-size: 0.8rem;
+    }
+    .impact-badge {
+       border: 1.5px solid #e8edf2;
+    }
+    .impact-text {
+       font-size: 0.82rem;
+    }
