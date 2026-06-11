@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <title>Strayde — La plateforme 360° des organisateurs sportifs</title>
   <meta name="description"
-    content="Inscriptions, bénévoles, communication, administratif : tout ce qu'il faut pour organiser un événement sportif, au même endroit." />
+    content="Inscriptions, bénévoles, communication, administratif, photos : tout ce qu'il faut pour organiser un événement sportif, au même endroit." />
   <meta property="og:title" content="Strayde — La plateforme 360° des organisateurs sportifs" />
   <meta property="og:description"
-    content="Inscriptions, bénévoles, communication, administratif : tout ce qu'il faut pour organiser un événement sportif, au même endroit." />
+    content="Inscriptions, bénévoles, communication, administratif, photos : tout ce qu'il faut pour organiser un événement sportif, au même endroit." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://strayde.com" />
-  <link rel="stylesheet" href="assets/strayde.css?v=4" />
+  <link rel="stylesheet" href="assets/strayde.css?v=7" />
   <link rel="stylesheet" media="print" href="assets/print.css" />
   <link rel="preload" href="assets/img/logo%20strayde.svg" as="image" />
 </head>
@@ -95,6 +95,13 @@
                 </div>
                 <span class="text-[#1e929b] transition-colors">Administratif</span>
               </a>
+              <a href="photos.html"
+                class="group flex items-center gap-2 px-4 py-3 text-sm hover:bg-white/5 transition-colors text-white-75">
+                <div class="w-7 flex-shrink-0 flex items-center justify-start">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-auto object-contain" fill="none" stroke="#e8844a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg>
+                </div>
+                <span class="text-[#e8844a] transition-colors">Photos</span>
+              </a>
             </div>
           </div>
 
@@ -167,6 +174,11 @@
         <div class="w-7 flex-shrink-0 flex items-center justify-start"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.19 45.39" class="h-6 w-auto object-contain" fill="#30b7c0" aria-hidden="true"><path d="M29.15,45.39H2.3c-1.27,0-2.3-1.03-2.3-2.3V15.16c0-1.27,1.03-2.3,2.3-2.3s2.3,1.03,2.3,2.3v25.64h22.25V12.94H10.64c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h18.51c1.27,0,2.3,1.03,2.3,2.3v32.45c0,1.27-1.03,2.3-2.3,2.3Z"/><path d="M37.43,38.3c-1.27,0-2.3-1.03-2.3-2.3V4.6h-17.64c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h19.94c1.27,0,2.3,1.03,2.3,2.3v33.71c0,1.27-1.03,2.3-2.3,2.3Z"/><rect x="43.59" width="4.6" height="33.77"/><rect y="8.34" width="4.6" height="32.54"/><rect x="35.13" y="19.15" width="4.6" height="19.15"/><path d="M21.67,21.45h-11.89c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h11.89c1.27,0,2.3,1.03,2.3,2.3s-1.03,2.3-2.3,2.3Z"/><path d="M21.67,29.16h-11.89c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h11.89c1.27,0,2.3,1.03,2.3,2.3s-1.03,2.3-2.3,2.3Z"/><path d="M21.67,36.86h-11.89c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h11.89c1.27,0,2.3,1.03,2.3,2.3s-1.03,2.3-2.3,2.3Z"/></svg></div>
         Administratif
       </a>
+      <a href="photos.html"
+        class="flex items-center gap-3 py-2 text-sm text-[#e8844a] transition-colors text-white-65">
+        <div class="w-7 flex-shrink-0 flex items-center justify-start"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-auto object-contain" fill="none" stroke="#e8844a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg></div>
+        Photos
+      </a>
       <p class="text-xs uppercase tracking-widest pt-4 pb-2 text-white-30">Pour qui ?</p>
       <a href="organisateurs.html"
         class="block py-2 text-sm hover:text-accent transition-colors text-white-65">Organisateurs</a>
@@ -183,53 +195,55 @@
   <main>
     <section class="s-dark hero-section">
       <div class="hero-glow"></div>
-      <div
-        class="max-w-7xl mx-auto px-5 grid lg:grid-cols-[2fr_3fr] gap-10 items-center w-full pt-6 pb-16 relative z-10">
+      <div class="max-w-7xl mx-auto px-5 w-full pt-6 pb-16 relative z-10">
 
-        <div class="min-w-0">
-          <div class="flex flex-nowrap overflow-x-auto gap-2 mb-10 animate-fade-up pb-2">
-            <span class="module-pill mp-inscriptions whitespace-nowrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.19 45.34" class="h-4 w-auto object-contain" fill="#c4d87d" aria-hidden="true"><rect width="4.6" height="45.34"/><rect x="8.41" width="4.6" height="45.34"/><path d="M45.89,30.42h-27.23c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h22.03l-5.98-6.58c-.8-.88-.8-2.23.01-3.1l5.92-6.44h-21.99c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h27.23c.91,0,1.74.54,2.11,1.38.37.84.21,1.81-.41,2.48l-8.05,8.75,8.06,8.87c.61.67.77,1.64.4,2.48-.37.83-1.19,1.37-2.1,1.37Z"/></svg>Inscriptions</span>
-            <span class="module-pill mp-benevoles whitespace-nowrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.61 45.34" class="h-4 w-auto object-contain" fill="#6f6fad" aria-hidden="true"><path d="M9.46,40.62h-.01c-.75,0-1.45-.38-1.88-1L0,28.63l5.95.09,3.54,5.58,6.6-9.34h5.63l-10.38,14.69c-.43.61-1.13.97-1.88.97Z"/><path d="M46.6,45.34h-27.12c-1.27,0-2.3-1.03-2.3-2.3,0-8.11,7.11-14.7,15.86-14.7s15.86,6.59,15.86,14.7c0,1.27-1.03,2.3-2.3,2.3ZM22.08,40.74h21.93c-1.16-4.47-5.64-7.8-10.96-7.8s-9.8,3.34-10.96,7.8Z"/><path d="M46.2,20.44c-.33,1.62-.96,3.13-1.82,4.48,5.25.08,9.63,3.38,10.78,7.8h-5.95c1.02,1.41,1.82,2.95,2.4,4.6h6.14c1.27,0,2.3-1.03,2.3-2.3,0-7.48-6.06-13.66-13.86-14.57Z"/><path d="M33.05,27.48c-5.36,0-9.73-4.36-9.73-9.73s4.36-9.73,9.73-9.73,9.73,4.36,9.73,9.73-4.36,9.73-9.73,9.73ZM33.05,12.63c-2.83,0-5.13,2.3-5.13,5.13s2.3,5.13,5.13,5.13,5.13-2.3,5.13-5.13-2.3-5.13-5.13-5.13Z"/><path d="M44.2,0c-3.5,0-6.57,1.87-8.28,4.65,1.57.35,3.04.97,4.36,1.82.94-1.13,2.34-1.86,3.92-1.86,2.83,0,5.13,2.3,5.13,5.13,0,2.17-1.36,4.02-3.28,4.77.26,1.05.42,2.14.42,3.26,0,.49-.03.97-.08,1.44,4.31-1,7.54-4.86,7.54-9.47,0-5.36-4.36-9.73-9.73-9.73Z"/><rect x="61.15" y="8.86" width="4.6" height="16.32"/><rect x="55.29" y="14.72" width="16.32" height="4.6"/></svg>Bénévoles</span>
-            <span class="module-pill mp-communication whitespace-nowrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57.45 45.34" class="h-4 w-auto object-contain" fill="#1e929b" aria-hidden="true"><path d="M34.78,36.34c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3c5,0,9.07-4.07,9.07-9.07s-4.07-9.07-9.07-9.07c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3c7.54,0,13.67,6.13,13.67,13.67s-6.13,13.67-13.67,13.67Z"/><path d="M34.78,0C24.36,0,15.56,7.07,12.93,16.67h4.83c2.48-7.02,9.17-12.07,17.02-12.07,9.96,0,18.07,8.11,18.07,18.07s-8.11,18.07-18.07,18.07c-7.86,0-14.54-5.05-17.02-12.07h-4.83c2.64,9.6,11.43,16.67,21.86,16.67,12.5,0,22.67-10.17,22.67-22.67S47.28,0,34.78,0Z"/><path d="M35.31,24.97H3.15c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h32.17c1.27,0,2.3,1.03,2.3,2.3s-1.03,2.3-2.3,2.3Z"/><path d="M32.45,29.74c-.59,0-1.18-.22-1.63-.67-.9-.9-.9-2.35,0-3.25l3.11-3.11-3.19-3.19c-.9-.9-.9-2.35,0-3.25.9-.9,2.35-.9,3.25,0l4.81,4.81c.9.9.9,2.35,0,3.25l-4.74,4.74c-.45.45-1.04.67-1.63.67Z"/><path d="M12.55,21.11l-6.01-6.01H0l7.57,7.57L0,30.24h6.54l6.01-6.02c.86-.86.86-2.25,0-3.12Z"/></svg>Communication</span>
-            <span class="module-pill mp-administratif whitespace-nowrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.19 45.39" class="h-4 w-auto object-contain" fill="#30b7c0" aria-hidden="true"><path d="M29.15,45.39H2.3c-1.27,0-2.3-1.03-2.3-2.3V15.16c0-1.27,1.03-2.3,2.3-2.3s2.3,1.03,2.3,2.3v25.64h22.25V12.94H10.64c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h18.51c1.27,0,2.3,1.03,2.3,2.3v32.45c0,1.27-1.03,2.3-2.3,2.3Z"/><path d="M37.43,38.3c-1.27,0-2.3-1.03-2.3-2.3V4.6h-17.64c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h19.94c1.27,0,2.3,1.03,2.3,2.3v33.71c0,1.27-1.03,2.3-2.3,2.3Z"/><rect x="43.59" width="4.6" height="33.77"/><rect y="8.34" width="4.6" height="32.54"/><rect x="35.13" y="19.15" width="4.6" height="19.15"/><path d="M21.67,21.45h-11.89c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h11.89c1.27,0,2.3,1.03,2.3,2.3s-1.03,2.3-2.3,2.3Z"/><path d="M21.67,29.16h-11.89c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h11.89c1.27,0,2.3,1.03,2.3,2.3s-1.03,2.3-2.3,2.3Z"/><path d="M21.67,36.86h-11.89c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h11.89c1.27,0,2.3,1.03,2.3,2.3s-1.03,2.3-2.3,2.3Z"/></svg>Administratif</span>
+        <div class="flex flex-nowrap overflow-x-auto gap-2 mb-10 animate-fade-up pb-2">
+          <span class="module-pill mp-inscriptions whitespace-nowrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.19 45.34" class="h-4 w-auto object-contain" fill="#c4d87d" aria-hidden="true"><rect width="4.6" height="45.34"/><rect x="8.41" width="4.6" height="45.34"/><path d="M45.89,30.42h-27.23c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h22.03l-5.98-6.58c-.8-.88-.8-2.23.01-3.1l5.92-6.44h-21.99c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h27.23c.91,0,1.74.54,2.11,1.38.37.84.21,1.81-.41,2.48l-8.05,8.75,8.06,8.87c.61.67.77,1.64.4,2.48-.37.83-1.19,1.37-2.1,1.37Z"/></svg>Inscriptions</span>
+          <span class="module-pill mp-benevoles whitespace-nowrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.61 45.34" class="h-4 w-auto object-contain" fill="#6f6fad" aria-hidden="true"><path d="M9.46,40.62h-.01c-.75,0-1.45-.38-1.88-1L0,28.63l5.95.09,3.54,5.58,6.6-9.34h5.63l-10.38,14.69c-.43.61-1.13.97-1.88.97Z"/><path d="M46.6,45.34h-27.12c-1.27,0-2.3-1.03-2.3-2.3,0-8.11,7.11-14.7,15.86-14.7s15.86,6.59,15.86,14.7c0,1.27-1.03,2.3-2.3,2.3ZM22.08,40.74h21.93c-1.16-4.47-5.64-7.8-10.96-7.8s-9.8,3.34-10.96,7.8Z"/><path d="M46.2,20.44c-.33,1.62-.96,3.13-1.82,4.48,5.25.08,9.63,3.38,10.78,7.8h-5.95c1.02,1.41,1.82,2.95,2.4,4.6h6.14c1.27,0,2.3-1.03,2.3-2.3,0-7.48-6.06-13.66-13.86-14.57Z"/><path d="M33.05,27.48c-5.36,0-9.73-4.36-9.73-9.73s4.36-9.73,9.73-9.73,9.73,4.36,9.73,9.73-4.36,9.73-9.73,9.73ZM33.05,12.63c-2.83,0-5.13,2.3-5.13,5.13s2.3,5.13,5.13,5.13,5.13-2.3,5.13-5.13-2.3-5.13-5.13-5.13Z"/><path d="M44.2,0c-3.5,0-6.57,1.87-8.28,4.65,1.57.35,3.04.97,4.36,1.82.94-1.13,2.34-1.86,3.92-1.86,2.83,0,5.13,2.3,5.13,5.13,0,2.17-1.36,4.02-3.28,4.77.26,1.05.42,2.14.42,3.26,0,.49-.03.97-.08,1.44,4.31-1,7.54-4.86,7.54-9.47,0-5.36-4.36-9.73-9.73-9.73Z"/><rect x="61.15" y="8.86" width="4.6" height="16.32"/><rect x="55.29" y="14.72" width="16.32" height="4.6"/></svg>Bénévoles</span>
+          <span class="module-pill mp-communication whitespace-nowrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57.45 45.34" class="h-4 w-auto object-contain" fill="#1e929b" aria-hidden="true"><path d="M34.78,36.34c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3c5,0,9.07-4.07,9.07-9.07s-4.07-9.07-9.07-9.07c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3c7.54,0,13.67,6.13,13.67,13.67s-6.13,13.67-13.67,13.67Z"/><path d="M34.78,0C24.36,0,15.56,7.07,12.93,16.67h4.83c2.48-7.02,9.17-12.07,17.02-12.07,9.96,0,18.07,8.11,18.07,18.07s-8.11,18.07-18.07,18.07c-7.86,0-14.54-5.05-17.02-12.07h-4.83c2.64,9.6,11.43,16.67,21.86,16.67,12.5,0,22.67-10.17,22.67-22.67S47.28,0,34.78,0Z"/><path d="M35.31,24.97H3.15c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h32.17c1.27,0,2.3,1.03,2.3,2.3s-1.03,2.3-2.3,2.3Z"/><path d="M32.45,29.74c-.59,0-1.18-.22-1.63-.67-.9-.9-.9-2.35,0-3.25l3.11-3.11-3.19-3.19c-.9-.9-.9-2.35,0-3.25.9-.9,2.35-.9,3.25,0l4.81,4.81c.9.9.9,2.35,0,3.25l-4.74,4.74c-.45.45-1.04.67-1.63.67Z"/><path d="M12.55,21.11l-6.01-6.01H0l7.57,7.57L0,30.24h6.54l6.01-6.02c.86-.86.86-2.25,0-3.12Z"/></svg>Communication</span>
+          <span class="module-pill mp-administratif whitespace-nowrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.19 45.39" class="h-4 w-auto object-contain" fill="#30b7c0" aria-hidden="true"><path d="M29.15,45.39H2.3c-1.27,0-2.3-1.03-2.3-2.3V15.16c0-1.27,1.03-2.3,2.3-2.3s2.3,1.03,2.3,2.3v25.64h22.25V12.94H10.64c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h18.51c1.27,0,2.3,1.03,2.3,2.3v32.45c0,1.27-1.03,2.3-2.3,2.3Z"/><path d="M37.43,38.3c-1.27,0-2.3-1.03-2.3-2.3V4.6h-17.64c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h19.94c1.27,0,2.3,1.03,2.3,2.3v33.71c0,1.27-1.03,2.3-2.3,2.3Z"/><rect x="43.59" width="4.6" height="33.77"/><rect y="8.34" width="4.6" height="32.54"/><rect x="35.13" y="19.15" width="4.6" height="19.15"/><path d="M21.67,21.45h-11.89c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h11.89c1.27,0,2.3,1.03,2.3,2.3s-1.03,2.3-2.3,2.3Z"/><path d="M21.67,29.16h-11.89c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h11.89c1.27,0,2.3,1.03,2.3,2.3s-1.03,2.3-2.3,2.3Z"/><path d="M21.67,36.86h-11.89c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h11.89c1.27,0,2.3,1.03,2.3,2.3s-1.03,2.3-2.3,2.3Z"/></svg>Administratif</span>
+          <span class="module-pill mp-photos whitespace-nowrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-4 w-auto object-contain" fill="none" stroke="#e8844a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg>Photos</span>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-10 items-center">
+
+          <div class="min-w-0">
+            <h1 class="font-display font-extrabold text-white mb-10 animate-fade-up-2 hero-title">
+              L'outil <span class="hl">gratuit<br />et centralisé</span> des<br />
+              organisateurs d'événements sportifs.
+            </h1>
+
+            <p class="leading-relaxed mb-12 animate-fade-up-3 hero-subtitle">
+              De l'ouverture des inscriptions à la remise des résultats, Strayde centralise <strong
+                class="text-white-75">tout ce dont vous avez besoin</strong> pour organiser vos événements
+              outdoor : inscriptions, bénévoles, communication, gestion administrative et photos au même endroit, sans jongler
+              entre dix outils.
+            </p>
+
+            <div class="flex flex-wrap gap-3 animate-fade-up-3">
+              <a href="contact.html"
+                class="btn-accent px-8 py-4 rounded-xl text-base font-bold inline-flex items-center justify-center gap-2 transition-all hover:scale-105 active:scale-95 shadow-xl shadow-secondary/20">
+                Nous contacter <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+              <a href="#modules"
+                class="btn-outline-light px-5 py-2.5 rounded-xl font-medium text-sm inline-flex items-center justify-center gap-2 whitespace-nowrap">
+                Découvrir la plateforme
+              </a>
+            </div>
+
+            <div class="flex flex-wrap items-center gap-4 mt-8 animate-fade-up-3">
+              <span class="text-white-30 text-xs font-medium whitespace-nowrap">Labellisé par</span>
+              <div class="h-px bg-white/10 w-4 flex-shrink-0"></div>
+              <img src="assets/img/logo%20fftri.webp" alt="FFTRI" class="w-52 h-auto object-contain">
+              <img src="assets/img/logo%20ffa.webp" alt="FFA" class="w-40 h-auto object-contain">
+            </div>
           </div>
 
-          <h1 class="font-display font-extrabold text-white mb-10 animate-fade-up-2 hero-title">
-            L'outil <span class="hl">gratuit<br />et centralisé</span> des<br />
-            organisateurs d'événements sportifs.
-          </h1>
-
-          <p class="leading-relaxed mb-12 max-w-full lg:max-w-lg animate-fade-up-3 hero-subtitle">
-            De l'ouverture des inscriptions à la remise des résultats, Strayde centralise <strong
-              class="text-white-75">tout ce dont vous avez besoin</strong> pour organiser vos événements
-            outdoor : inscriptions, bénévoles, communication et gestion administrative au même endroit, sans jongler
-            entre dix outils.
-          </p>
-
-          <div class="flex flex-wrap gap-3 animate-fade-up-3">
-            <a href="contact.html"
-              class="btn-accent px-8 py-4 rounded-xl text-base font-bold inline-flex items-center justify-center gap-2 transition-all hover:scale-105 active:scale-95 shadow-xl shadow-secondary/20">
-              Nous contacter <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-            </a>
-            <a href="#modules"
-              class="btn-outline-light px-5 py-2.5 rounded-xl font-medium text-sm inline-flex items-center justify-center gap-2 whitespace-nowrap">
-              Découvrir la plateforme
-            </a>
-          </div>
-
-          <div class="flex flex-wrap items-center gap-4 mt-8 animate-fade-up-3">
-            <span class="text-white-30 text-xs font-medium whitespace-nowrap">Labellisé par</span>
-            <div class="h-px bg-white/10 w-4 flex-shrink-0"></div>
-            <img src="assets/img/logo%20fftri.webp" alt="FFTRI" class="w-52 h-auto object-contain">
-            <img src="assets/img/logo%20ffa.webp" alt="FFA" class="w-40 h-auto object-contain">
+          <div class="hidden lg:flex relative justify-end items-center animate-fade-up-3">
+            <img src="assets/img/tableau%20page%20accueil.webp" alt="Tableau de bord Strayde" class="w-full h-auto object-contain rounded-2xl shadow-2xl" style="max-width:540px;margin-left:auto;margin-top:-30px">
           </div>
 
         </div>
-
-        <div class="hidden lg:flex relative justify-end items-center animate-fade-up-3">
-          <img src="assets/img/tableau%20page%20accueil.webp" alt="Tableau de bord Strayde" class="w-full h-auto object-contain rounded-2xl shadow-2xl">
-        </div>
-
       </div>
     </section>
 
@@ -249,29 +263,35 @@
         </div>
 
         <div class="reveal">
-          <div class="grid grid-cols-2 md:flex flex-wrap justify-center gap-3 mb-8">
+          <div class="grid grid-cols-2 md:grid-cols-5 gap-3 mb-8">
             <button onclick="showModule('inscriptions')" id="btn-inscriptions"
-              class="module-tab active px-10 py-5 rounded-2xl border border-[#9cb342]/30 bg-white hover:border-[#9cb342] hover:bg-[#f8fce8] transition-all flex items-center justify-center gap-4 w-full sm:w-64 group">
+              class="module-tab active px-6 py-5 rounded-2xl border border-[#9cb342]/30 bg-white hover:border-[#9cb342] hover:bg-[#f8fce8] transition-all flex items-center justify-center gap-3 w-full group">
               <div class="flex-shrink-0 flex items-center justify-center w-9"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.19 45.34" class="h-6 w-auto object-contain" fill="#c4d87d" aria-label="Inscriptions"><rect width="4.6" height="45.34"/><rect x="8.41" width="4.6" height="45.34"/><path d="M45.89,30.42h-27.23c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h22.03l-5.98-6.58c-.8-.88-.8-2.23.01-3.1l5.92-6.44h-21.99c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h27.23c.91,0,1.74.54,2.11,1.38.37.84.21,1.81-.41,2.48l-8.05,8.75,8.06,8.87c.61.67.77,1.64.4,2.48-.37.83-1.19,1.37-2.1,1.37Z"/></svg></div>
               <span class="font-bold text-[#9cb342] text-lg">Inscriptions</span>
             </button>
 
             <button onclick="showModule('benevoles')" id="btn-benevoles"
-              class="module-tab px-10 py-5 rounded-2xl border border-[#a0a0d4]/30 bg-white hover:border-[#a0a0d4] hover:bg-[#f4f4fb] transition-all flex items-center justify-center gap-4 w-full sm:w-64 group">
+              class="module-tab px-6 py-5 rounded-2xl border border-[#a0a0d4]/30 bg-white hover:border-[#a0a0d4] hover:bg-[#f4f4fb] transition-all flex items-center justify-center gap-3 w-full group">
               <div class="flex-shrink-0 flex items-center justify-center w-9"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.61 45.34" class="h-6 w-auto object-contain" fill="#6f6fad" aria-label="Bénévoles"><path d="M9.46,40.62h-.01c-.75,0-1.45-.38-1.88-1L0,28.63l5.95.09,3.54,5.58,6.6-9.34h5.63l-10.38,14.69c-.43.61-1.13.97-1.88.97Z"/><path d="M46.6,45.34h-27.12c-1.27,0-2.3-1.03-2.3-2.3,0-8.11,7.11-14.7,15.86-14.7s15.86,6.59,15.86,14.7c0,1.27-1.03,2.3-2.3,2.3ZM22.08,40.74h21.93c-1.16-4.47-5.64-7.8-10.96-7.8s-9.8,3.34-10.96,7.8Z"/><path d="M46.2,20.44c-.33,1.62-.96,3.13-1.82,4.48,5.25.08,9.63,3.38,10.78,7.8h-5.95c1.02,1.41,1.82,2.95,2.4,4.6h6.14c1.27,0,2.3-1.03,2.3-2.3,0-7.48-6.06-13.66-13.86-14.57Z"/><path d="M33.05,27.48c-5.36,0-9.73-4.36-9.73-9.73s4.36-9.73,9.73-9.73,9.73,4.36,9.73,9.73-4.36,9.73-9.73,9.73ZM33.05,12.63c-2.83,0-5.13,2.3-5.13,5.13s2.3,5.13,5.13,5.13,5.13-2.3,5.13-5.13-2.3-5.13-5.13-5.13Z"/><path d="M44.2,0c-3.5,0-6.57,1.87-8.28,4.65,1.57.35,3.04.97,4.36,1.82.94-1.13,2.34-1.86,3.92-1.86,2.83,0,5.13,2.3,5.13,5.13,0,2.17-1.36,4.02-3.28,4.77.26,1.05.42,2.14.42,3.26,0,.49-.03.97-.08,1.44,4.31-1,7.54-4.86,7.54-9.47,0-5.36-4.36-9.73-9.73-9.73Z"/><rect x="61.15" y="8.86" width="4.6" height="16.32"/><rect x="55.29" y="14.72" width="16.32" height="4.6"/></svg></div>
               <span class="font-bold text-[#7070b8] text-lg">Bénévoles</span>
             </button>
 
             <button onclick="showModule('communication')" id="btn-communication"
-              class="module-tab px-10 py-5 rounded-2xl border border-[#1e929b]/30 bg-white hover:border-[#1e929b] hover:bg-[#eef8f9] transition-all flex items-center justify-center gap-4 w-full sm:w-64 group">
+              class="module-tab px-6 py-5 rounded-2xl border border-[#1e929b]/30 bg-white hover:border-[#1e929b] hover:bg-[#eef8f9] transition-all flex items-center justify-center gap-3 w-full group">
               <div class="flex-shrink-0 flex items-center justify-center w-9"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57.45 45.34" class="h-6 w-auto object-contain" fill="#1e929b" aria-label="Communication"><path d="M34.78,36.34c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3c5,0,9.07-4.07,9.07-9.07s-4.07-9.07-9.07-9.07c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3c7.54,0,13.67,6.13,13.67,13.67s-6.13,13.67-13.67,13.67Z"/><path d="M34.78,0C24.36,0,15.56,7.07,12.93,16.67h4.83c2.48-7.02,9.17-12.07,17.02-12.07,9.96,0,18.07,8.11,18.07,18.07s-8.11,18.07-18.07,18.07c-7.86,0-14.54-5.05-17.02-12.07h-4.83c2.64,9.6,11.43,16.67,21.86,16.67,12.5,0,22.67-10.17,22.67-22.67S47.28,0,34.78,0Z"/><path d="M35.31,24.97H3.15c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h32.17c1.27,0,2.3,1.03,2.3,2.3s-1.03,2.3-2.3,2.3Z"/><path d="M32.45,29.74c-.59,0-1.18-.22-1.63-.67-.9-.9-.9-2.35,0-3.25l3.11-3.11-3.19-3.19c-.9-.9-.9-2.35,0-3.25.9-.9,2.35-.9,3.25,0l4.81,4.81c.9.9.9,2.35,0,3.25l-4.74,4.74c-.45.45-1.04.67-1.63.67Z"/><path d="M12.55,21.11l-6.01-6.01H0l7.57,7.57L0,30.24h6.54l6.01-6.02c.86-.86.86-2.25,0-3.12Z"/></svg></div>
               <span class="font-bold text-[#1e929b] text-lg">Communication</span>
             </button>
 
             <button onclick="showModule('administratif')" id="btn-administratif"
-              class="module-tab px-10 py-5 rounded-2xl border border-[#30b7c0]/30 bg-white hover:border-[#30b7c0] hover:bg-[#eef9fa] transition-all flex items-center justify-center gap-4 w-full sm:w-64 group">
+              class="module-tab px-6 py-5 rounded-2xl border border-[#30b7c0]/30 bg-white hover:border-[#30b7c0] hover:bg-[#eef9fa] transition-all flex items-center justify-center gap-3 w-full group">
               <div class="flex-shrink-0 flex items-center justify-center w-9"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.19 45.39" class="h-6 w-auto object-contain" fill="#30b7c0" aria-label="Administratif"><path d="M29.15,45.39H2.3c-1.27,0-2.3-1.03-2.3-2.3V15.16c0-1.27,1.03-2.3,2.3-2.3s2.3,1.03,2.3,2.3v25.64h22.25V12.94H10.64c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h18.51c1.27,0,2.3,1.03,2.3,2.3v32.45c0,1.27-1.03,2.3-2.3,2.3Z"/><path d="M37.43,38.3c-1.27,0-2.3-1.03-2.3-2.3V4.6h-17.64c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h19.94c1.27,0,2.3,1.03,2.3,2.3v33.71c0,1.27-1.03,2.3-2.3,2.3Z"/><rect x="43.59" width="4.6" height="33.77"/><rect y="8.34" width="4.6" height="32.54"/><rect x="35.13" y="19.15" width="4.6" height="19.15"/><path d="M21.67,21.45h-11.89c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h11.89c1.27,0,2.3,1.03,2.3,2.3s-1.03,2.3-2.3,2.3Z"/><path d="M21.67,29.16h-11.89c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h11.89c1.27,0,2.3,1.03,2.3,2.3s-1.03,2.3-2.3,2.3Z"/><path d="M21.67,36.86h-11.89c-1.27,0-2.3-1.03-2.3-2.3s1.03-2.3,2.3-2.3h11.89c1.27,0,2.3,1.03,2.3,2.3s-1.03,2.3-2.3,2.3Z"/></svg></div>
               <span class="font-bold text-[#30b7c0] text-lg">Administratif</span>
+            </button>
+
+            <button onclick="showModule('photos')" id="btn-photos"
+              class="module-tab px-6 py-5 rounded-2xl border border-[#e8844a]/30 bg-white hover:border-[#e8844a] hover:bg-[#fdf3ec] transition-all flex items-center justify-center gap-3 w-full group">
+              <div class="flex-shrink-0 flex items-center justify-center w-9"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-6 w-auto object-contain" fill="none" stroke="#e8844a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-label="Photos"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg></div>
+              <span class="font-bold text-[#e8844a] text-lg">Photos</span>
             </button>
           </div>
 
@@ -407,6 +427,37 @@
                 </div>
                 <div class="relative">
                   <img data-src="assets/img/pilotage administratif.webp" alt="Mockup Administratif"
+                    class="w-full h-auto rounded-3xl shadow-xl border border-gray-100" />
+                </div>
+              </div>
+            </div>
+
+            <div id="mod-photos" class="module-content hidden card p-8 md:p-12">
+              <div class="grid gap-10 items-center" style="grid-template-columns: 5fr 6fr;">
+                <div>
+                  <div class="flex items-center gap-4 mb-6">
+                    <div class="p-3 rounded-2xl">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-auto object-contain" fill="none" stroke="#e8844a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-label="Photos"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg>
+                    </div>
+                    <div>
+                      <span class="text-xs font-bold uppercase tracking-widest text-[#e8844a]">Module 05</span>
+                      <h3 class="font-display font-bold text-primary text-2xl">Vente & partage de photos</h3>
+                    </div>
+                  </div>
+                  <p class="text-lg text-gray-600 leading-relaxed mb-8">
+                    Vendez les photos de votre événement directement aux participants. Reconnaissance automatique
+                    des dossards par IA, albums illimités, packs & codes promo inclus.
+                  </p>
+                  <div class="space-y-3">
+                    <div class="check-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-[#e8844a]"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Détection IA automatique des numéros de dossard</div>
+                    <div class="check-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-[#e8844a]"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Vente à l'unité, en packs ou avec codes promo</div>
+                    <div class="check-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-[#e8844a]"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Albums illimités avec arborescence libre</div>
+                    <div class="check-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-[#e8844a]"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Statistiques de ventes en temps réel</div>
+                    <div class="check-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-[#e8844a]"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Invitation de photographes à déposer leurs photos directement</div>
+                  </div>
+                </div>
+                <div class="relative">
+                  <img src="assets/img/statistiques%20de%20ventes.webp" alt="Statistiques de ventes photos"
                     class="w-full h-auto rounded-3xl shadow-xl border border-gray-100" />
                 </div>
               </div>
@@ -590,7 +641,7 @@
             <div class="faq-answer pt-3">
               <p class="text-sm leading-relaxed text-muted">Strayde remplace vos formulaires Google, vos tableaux Excel,
                 vos outils d'emailing et vos échanges de fichiers par email. Tout est centralisé : inscriptions,
-                bénévoles, communication et documents administratifs dans une seule interface.</p>
+                bénévoles, communication, documents administratifs et photos dans une seule interface.</p>
             </div>
           </div>
           <div class="faq-item py-5 cursor-pointer" onclick="toggleFaq(this)">
@@ -611,7 +662,7 @@
             </div>
             <div class="faq-answer pt-3">
               <p class="text-sm leading-relaxed text-muted">C’est totalement gratuit pour vous. L’accès à l’ensemble des
-                modules (inscriptions, bénévoles, communication, administratif) est inclus. Strayde se rémunère
+                modules (inscriptions, bénévoles, communication, administratif, photos) est inclus. Strayde se rémunère
                 uniquement via une commission de 0,50 € + 5 % par transaction sur les inscriptions payantes. Aucun
                 abonnement, aucun frais caché.<br><br>Pour un usage du module bénévoles seul, un devis vous est proposé
                 sur demande.</p>
@@ -742,7 +793,7 @@
         <div class="md:col-span-2">
           <img src="assets/img/logo%20strayde.svg" width="130" height="36" alt="Strayde" class="h-9 w-auto mb-4" loading="lazy"/>
           <p class="text-sm leading-relaxed max-w-xs text-white-38">La plateforme qui simplifie l'organisation
-            d'événements sportifs outdoor. Inscriptions, bénévoles, communication, administratif : tout au même endroit.
+            d'événements sportifs outdoor. Inscriptions, bénévoles, communication, administratif, photos : tout au même endroit.
           </p>
           <div class="flex gap-3 mt-5">
             <a href="https://www.linkedin.com/company/strayde/" target="_blank" rel="noopener noreferrer"

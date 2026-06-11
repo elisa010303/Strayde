@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 322" width="560" height="322">
+  <defs>
+    <clipPath id="win-clip"><rect width="560" height="322" rx="12"/></clipPath>
+    <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#00000022"/></filter>
+  </defs>
+  <!-- Window shadow + clip -->
+  <rect width="560" height="322" rx="12" fill="white" filter="url(#sh)" clip-path="url(#win-clip)"/>
+  <!-- Chrome bar -->
+  <rect width="560" height="36" fill="#1e2240" rx="12 12 0 0" clip-path="url(#win-clip)"/>
+  <!-- macOS dots -->
+  <circle cx="18" cy="18" r="5.5" fill="#ff5f57"/>
+  <circle cx="34" cy="18" r="5.5" fill="#febc2e"/>
+  <circle cx="50" cy="18" r="5.5" fill="#28c840"/>
+  <!-- URL bar -->
+  <rect x="80" y="8" width="460" height="20" rx="6" fill="#ffffff18"/>
+  <text x="280" y="22" font-family="system-ui,sans-serif" font-size="10" fill="#ffffff99" text-anchor="middle">app.strayde.com · Photographes</text>
+  <!-- Content area -->
+  <rect x="0" y="36" width="560" height="286" fill="#f5f7f9"/>
+
+  <rect x="0" y="36" width="560" height="44" fill="white" stroke="#e5e7eb" stroke-width="0.5"/>
+  <text x="18" y="64" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#1e2240" letter-spacing="0.5">NOUVELLE INVITATION</text>
+  <!-- Form left -->
+  <text x="12" y="98" font-family="system-ui,sans-serif" font-size="9.5" fill="#374151">Nom *</text>
+  <rect x="12" y="102" width="100" height="22" rx="4" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="20" y="117" font-family="system-ui,sans-serif" font-size="9" fill="#d1d5db">Ex: Dupont</text>
+  <text x="120" y="98" font-family="system-ui,sans-serif" font-size="9.5" fill="#374151">Prénom *</text>
+  <rect x="120" y="102" width="110" height="22" rx="4" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="128" y="117" font-family="system-ui,sans-serif" font-size="9" fill="#d1d5db">Ex: Jean</text>
+  <text x="12" y="138" font-family="system-ui,sans-serif" font-size="9.5" fill="#374151">Email *</text>
+  <rect x="12" y="142" width="218" height="22" rx="4" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="20" y="157" font-family="system-ui,sans-serif" font-size="9" fill="#d1d5db">Ex: photo@exemple.fr</text>
+  <text x="12" y="178" font-family="system-ui,sans-serif" font-size="9.5" fill="#374151">Date d'expiration</text>
+  <rect x="12" y="182" width="218" height="22" rx="4" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="20" y="197" font-family="system-ui,sans-serif" font-size="9" fill="#d1d5db">dd/mm/yyyy</text>
+  <text x="12" y="218" font-family="system-ui,sans-serif" font-size="9.5" fill="#374151">Quota (nombre de photos)</text>
+  <rect x="12" y="222" width="218" height="22" rx="4" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="20" y="237" font-family="system-ui,sans-serif" font-size="9" fill="#d1d5db">Illimité</text>
+  <text x="12" y="260" font-family="system-ui,sans-serif" font-size="9.5" font-weight="600" fill="#374151">Modération activée</text>
+  <rect x="196" y="250" width="34" height="16" rx="8" fill="#c5d97d"/>
+  <circle cx="222" cy="258" r="6" fill="white"/>
+  <rect x="12" y="272" width="218" height="28" rx="6" fill="#c5d97d"/>
+  <text x="121" y="290" font-family="system-ui,sans-serif" font-size="9.5" font-weight="700" fill="#1e2240" text-anchor="middle">CRÉER L'INVITATION</text>
+  <!-- Separator -->
+  <line x1="246" y1="80" x2="246" y2="310" stroke="#e5e7eb" stroke-width="1"/>
+  <!-- Table right -->
+  <text x="258" y="98" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#6b7280">Photographe</text>
+  <text x="410" y="98" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#6b7280" text-anchor="middle">Quota</text>
+  <text x="498" y="98" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#6b7280" text-anchor="middle">Statut</text>
+  <line x1="246" y1="104" x2="550" y2="104" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="258" y="124" font-family="system-ui,sans-serif" font-size="9.5" font-weight="600" fill="#1e2240">Christelle Movin</text>
+  <text x="258" y="137" font-family="system-ui,sans-serif" font-size="8.5" fill="#9ca3af">chriphoto@exemple.com</text>
+  <text x="258" y="148" font-family="system-ui,sans-serif" font-size="8" fill="#9ca3af">·Expire le 03/09/2026</text>
+  <text x="410" y="134" font-family="system-ui,sans-serif" font-size="9.5" fill="#374151" text-anchor="middle">Illimité</text>
+  <rect x="474" y="122" width="48" height="18" rx="9" fill="#c5d97d"/>
+  <text x="498" y="134" font-family="system-ui,sans-serif" font-size="9" font-weight="600" fill="#1e2240" text-anchor="middle">Actif</text>
+  <line x1="246" y1="158" x2="550" y2="158" stroke="#f3f4f6" stroke-width="0.5"/>
+  <text x="258" y="178" font-family="system-ui,sans-serif" font-size="9.5" font-weight="600" fill="#1e2240">Philippe Le Petit</text>
+  <text x="258" y="191" font-family="system-ui,sans-serif" font-size="8.5" fill="#9ca3af">plepetit@exemple.com</text>
+  <text x="258" y="202" font-family="system-ui,sans-serif" font-size="8" fill="#9ca3af">·Expire le 06/09/2026</text>
+  <text x="410" y="188" font-family="system-ui,sans-serif" font-size="9.5" fill="#374151" text-anchor="middle">50 photos</text>
+  <rect x="474" y="176" width="48" height="18" rx="9" fill="#c5d97d"/>
+  <text x="498" y="188" font-family="system-ui,sans-serif" font-size="9" font-weight="600" fill="#1e2240" text-anchor="middle">Actif</text>
+  <line x1="246" y1="212" x2="550" y2="212" stroke="#f3f4f6" stroke-width="0.5"/>
+  <text x="258" y="232" font-family="system-ui,sans-serif" font-size="9.5" font-weight="600" fill="#1e2240">Jean Dupont</text>
+  <text x="258" y="245" font-family="system-ui,sans-serif" font-size="8.5" fill="#9ca3af">photo@exemple.com</text>
+  <text x="258" y="256" font-family="system-ui,sans-serif" font-size="8" fill="#9ca3af">·Expire le 01/09/2026</text>
+  <text x="410" y="242" font-family="system-ui,sans-serif" font-size="9.5" fill="#374151" text-anchor="middle">10 photos</text>
+  <rect x="474" y="230" width="48" height="18" rx="9" fill="#c5d97d"/>
+  <text x="498" y="242" font-family="system-ui,sans-serif" font-size="9" font-weight="600" fill="#1e2240" text-anchor="middle">Actif</text>
+  <line x1="246" y1="266" x2="550" y2="266" stroke="#f3f4f6" stroke-width="0.5"/>
+</svg>
